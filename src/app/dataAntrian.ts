@@ -4,6 +4,7 @@ const antrians = [
       "nama": "Adi",
       "poli": "Poli Umum",
       "dokter": "Kamar 2 | dr. shinta",
+      "sesi": 1,
       "status": "Tidak Tersedia"
     },
     {
@@ -11,6 +12,7 @@ const antrians = [
       "nama": "Muri",
       "poli": "Poli Umum",
       "dokter": "Kamar 2 | dr. shinta",
+      "sesi": 1,
       "status": "Batal"
     },
     {
@@ -18,13 +20,15 @@ const antrians = [
       "nama": "Anto",
       "poli": "Poli Umum",
       "dokter": "Kamar 2 | dr. shinta",
-      "status": "Terpilih"
+      "sesi": 1,
+      "status": "Tidak Tersedia"
     },
     {
       "noAntrian": "04",
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
       "status": "Tersedia"
     },
     {
@@ -32,6 +36,7 @@ const antrians = [
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
       "status": "Tersedia"
     },
     {
@@ -39,6 +44,7 @@ const antrians = [
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
       "status": "Tersedia"
     },
     {
@@ -46,6 +52,7 @@ const antrians = [
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
       "status": "Tersedia"
     },
     {
@@ -53,6 +60,7 @@ const antrians = [
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
       "status": "Tersedia"
     },
     {
@@ -60,6 +68,7 @@ const antrians = [
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
       "status": "Tersedia"
     },
     {
@@ -67,6 +76,7 @@ const antrians = [
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
       "status": "Tersedia"
     },
     {
@@ -74,6 +84,7 @@ const antrians = [
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
       "status": "Tersedia"
     },
     {
@@ -81,8 +92,155 @@ const antrians = [
       "nama": "",
       "poli": "",
       "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "13",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "14",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "15",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "16",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "17",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "18",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "19",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "20",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 1,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "21",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "22",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "23",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "24",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "25",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "26",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "27",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "28",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "29",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
+      "status": "Tersedia"
+    },
+    {
+      "noAntrian": "30",
+      "nama": "",
+      "poli": "",
+      "dokter": "",
+      "sesi": 2,
       "status": "Tersedia"
     },
   ];
 
-export {antrians}
+  const sesiAntrian = [1, 2]
+
+export {antrians, sesiAntrian}
